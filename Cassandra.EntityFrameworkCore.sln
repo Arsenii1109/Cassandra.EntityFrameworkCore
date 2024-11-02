@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{655F41A4-351C-4B19-8486-8FA1C017B03D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C400711F-2E38-414B-9F07-5ED2CE3C89C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cassandra.EntityFrameworkCore", "src\Cassandra.EntityFrameworkCore\Cassandra.EntityFrameworkCore.csproj", "{60CA57B5-2E91-4586-A948-67AB85708BB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60CA57B5-2E91-4586-A948-67AB85708BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60CA57B5-2E91-4586-A948-67AB85708BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60CA57B5-2E91-4586-A948-67AB85708BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60CA57B5-2E91-4586-A948-67AB85708BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60CA57B5-2E91-4586-A948-67AB85708BB0} = {C400711F-2E38-414B-9F07-5ED2CE3C89C5}
+	EndGlobalSection
+EndGlobal
